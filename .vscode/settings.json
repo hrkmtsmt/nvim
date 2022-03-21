@@ -1,0 +1,5 @@
+{
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/hrkmtsmt/.config/nvim/init.vim",
+  "vscode-neovim.revealCursorScrollLine": true,
+}
