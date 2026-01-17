@@ -28,7 +28,6 @@ require("lazy").setup({
     require("plugins.nvim-treesitter"),
     require("plugins.telescope"),
     require("plugins.toggleterm"),
-    require("plugins.winresizer"),
   },
 })
 
