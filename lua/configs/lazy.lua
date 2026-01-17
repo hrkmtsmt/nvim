@@ -27,6 +27,7 @@ require("lazy").setup({
     require("plugins.nvim-autopairs"),
     require("plugins.nvim-lspconfig"),
     require("plugins.nvim-treesitter"),
+    require("plugins.render-markdown"),
     require("plugins.telescope"),
     require("plugins.toggleterm"),
   },
