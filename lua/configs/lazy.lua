@@ -18,6 +18,7 @@ require("lazy").setup({
     require("plugins.catppuccin"),
     require("plugins.git-blame"),
     require("plugins.gitsigns"),
+    require("plugins.indent-blankline"),
     require("plugins.lualine"),
     require("plugins.mason"),
     require("plugins.mason-lspconfig"),
