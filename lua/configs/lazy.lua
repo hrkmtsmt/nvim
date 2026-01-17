@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
+    require("plugins.blink-cmp"),
     require("plugins.catppuccin"),
     require("plugins.git-blame"),
     require("plugins.gitsigns"),
