@@ -10,6 +10,7 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.autoread = true
 vim.opt.updatetime = 300
+vim.opt.clipboard = "unnamedplus"
 
 vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold", "CursorHoldI" }, {
   pattern = "*",
