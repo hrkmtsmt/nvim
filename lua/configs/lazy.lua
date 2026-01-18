@@ -23,7 +23,7 @@ require("lazy").setup({
     require("plugins.lualine"),
     require("plugins.mason"),
     require("plugins.mason-lspconfig"),
-    require("plugins.neo-tree"),
+    require("plugins.oil"),
     require("plugins.noice"),
     require("plugins.nvim-autopairs"),
     require("plugins.nvim-lspconfig"),
