@@ -19,7 +19,7 @@ return {
       },
       completion = {
         menu = {
-          border = "single"
+          border = "single",
         },
         documentation = {
           auto_show = true,
