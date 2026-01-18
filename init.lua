@@ -11,6 +11,9 @@ vim.opt.expandtab = true
 vim.opt.autoread = true
 vim.opt.updatetime = 300
 vim.opt.clipboard = "unnamedplus"
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.writebackup = false
 
 vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold", "CursorHoldI" }, {
   pattern = "*",
