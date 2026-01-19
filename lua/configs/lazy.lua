@@ -17,6 +17,7 @@ require("lazy").setup({
   spec = {
     require("plugins.blink-cmp"),
     require("plugins.catppuccin"),
+    require("plugins.dashboard"),
     require("plugins.git-blame"),
     require("plugins.gitsigns"),
     require("plugins.indent-blankline"),
@@ -24,6 +25,7 @@ require("lazy").setup({
     require("plugins.mason"),
     require("plugins.mason-lspconfig"),
     require("plugins.oil"),
+    require("plugins.neoscroll"),
     require("plugins.noice"),
     require("plugins.nvim-autopairs"),
     require("plugins.nvim-lspconfig"),

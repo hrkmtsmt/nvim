@@ -3,6 +3,9 @@ return {
   main = "ibl",
   config = function()
     require("ibl").setup({
+      exclude = {
+        filetypes = { "dashboard" },
+      },
       scope = {
         enabled = true,
         show_start = true,
