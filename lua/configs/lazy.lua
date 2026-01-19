@@ -31,5 +31,6 @@ require("lazy").setup({
     require("plugins.render-markdown"),
     require("plugins.telescope"),
     require("plugins.toggleterm"),
+    require("plugins.which-key"),
   },
 })

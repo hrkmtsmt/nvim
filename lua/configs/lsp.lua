@@ -29,4 +29,4 @@ vim.lsp.config("lua_ls", {
 
 vim.lsp.enable(language_servers)
 
-vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "LSP Rename" })

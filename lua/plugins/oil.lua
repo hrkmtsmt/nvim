@@ -38,7 +38,7 @@ return {
       },
     })
 
-    vim.keymap.set("n", "<leader>e", "<CMD>Oil<CR>")
-    vim.keymap.set("n", "<leader>ef", "<CMD>Oil --float<CR>")
+    vim.keymap.set("n", "<leader>ee", "<CMD>Oil<CR>", { desc = "Oil Explore" })
+    vim.keymap.set("n", "<leader>ef", "<CMD>Oil --float<CR>", { desc = "Oil Explore with Float" })
   end,
 }
