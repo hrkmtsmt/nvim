@@ -17,6 +17,7 @@ require("lazy").setup({
   spec = {
     require("plugins.blink-cmp"),
     require("plugins.catppuccin"),
+    require("plugins.copilot"),
     require("plugins.dashboard"),
     require("plugins.git-blame"),
     require("plugins.gitsigns"),
