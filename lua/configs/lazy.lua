@@ -18,6 +18,7 @@ require("lazy").setup({
     require("plugins.blink-cmp"),
     require("plugins.catppuccin"),
     require("plugins.copilot"),
+    require("plugins.copilot-chat"),
     require("plugins.dashboard"),
     require("plugins.git-blame"),
     require("plugins.gitsigns"),
