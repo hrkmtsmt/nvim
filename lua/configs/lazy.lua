@@ -21,6 +21,7 @@ require("lazy").setup({
     require("plugins.copilot"),
     require("plugins.copilot-chat"),
     require("plugins.dashboard"),
+    require("plugins.diffview"),
     require("plugins.git-blame"),
     require("plugins.gitsigns"),
     require("plugins.indent-blankline"),
