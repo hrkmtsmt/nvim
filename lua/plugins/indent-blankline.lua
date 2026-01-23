@@ -6,6 +6,9 @@ return {
       exclude = {
         filetypes = { "dashboard" },
       },
+      indent = {
+        char = "▏",
+      },
       scope = {
         enabled = true,
         show_start = true,
