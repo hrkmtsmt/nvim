@@ -12,13 +12,13 @@
 ## Implementation Rules
 
 - If the user ask to install plugins then first implementation should be default setting.
-  - Should not be set custtom keymap at first.
+  - Should not be set custom keymap at first.
 - If the user ask to install plugins then add new plugin file and load the plugin.
-  - Plugin name shoud be kebuab-case.
-  - Plugin additon to `<root>/lua/plugins/{PLUGIN_NAME}.lua`.
+  - Plugin name should be kebab-case.
+  - Plugin addition to `<root>/lua/plugins/{PLUGIN_NAME}.lua`.
   - Load plugin in `<root>/lua/config/lazy.lua`.
 
-## Invastigation Rules
+## Investigation Rules
 
 - If the user ask to investigate plugins, should meet the these requirements:
   - Should provide 3 more list of plugins.

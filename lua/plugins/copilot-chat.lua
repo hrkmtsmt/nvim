@@ -10,6 +10,6 @@ return {
   config = function(_, opts)
     require("CopilotChat").setup(opts)
 
-    vim.keymap.set("n", "<leader>gc", "<cmd>CopilotChatToggle<cr>", { desc = "CopilotChat Opne" })
+    vim.keymap.set("n", "<leader>gc", "<cmd>CopilotChatToggle<cr>", { desc = "CopilotChat Open" })
   end,
 }
