@@ -10,13 +10,15 @@ return {
         transparent = true,
       },
       integrations = {
+        gitsigns = true,
         treesitter = true,
-        native_lsp = {
-          enabled = true,
-        },
+        diffview = true,
         mason = true,
         noice = true,
         neotree = true,
+        native_lsp = {
+          enabled = true,
+        },
         telescope = {
           enabled = true,
         },
