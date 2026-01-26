@@ -3,9 +3,11 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
+
   keys = {
     { "<leader>cc", "<cmd>ClaudeCode<cr>", desc = "Open Claude Code" },
   },
+
   config = function()
     require("claude-code").setup({
       window = {
