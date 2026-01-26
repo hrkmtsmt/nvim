@@ -7,9 +7,12 @@ return {
       columns = {
         "icon",
       },
+      win_options = {
+        signcolumn = "yes:2",
+      },
       view_options = {
         show_hidden = true,
-        is_hidden_file = function(name, bufnr)
+        is_hidden_file = function(name)
           return vim.startswith(name, ".")
         end,
       },
