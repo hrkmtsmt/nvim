@@ -8,6 +8,7 @@ return {
       transparent_background = true,
       float = {
         transparent = true,
+        solid = true,
       },
       integrations = {
         gitsigns = true,
@@ -22,6 +23,7 @@ return {
         telescope = {
           enabled = true,
         },
+        which_key = true,
       },
     })
     vim.cmd.colorscheme("catppuccin")
