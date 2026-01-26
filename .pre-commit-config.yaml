@@ -10,6 +10,12 @@ repos:
   rev: v9.4.0
   hooks:
     - id: cspell
+      name: check spelling in files
+      args:
+        - --no-must-find-files
+        - --no-progress
+        - --no-summary
+    - id: cspell
       name: check commit message spelling
       args:
         - --no-must-find-files
