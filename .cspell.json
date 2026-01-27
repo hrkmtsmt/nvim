@@ -52,6 +52,7 @@
     "swapfile",
     "tanjim",
     "termguicolors",
+    "terraformls",
     "toggleterm",
     "topdelete",
     "unnamedplus",
@@ -62,7 +63,8 @@
     "williamboman",
     "winblend",
     "windwp",
-    "writebackup"
+    "writebackup",
+    "yamlls"
   ]
 }
 
