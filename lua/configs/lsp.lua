@@ -1,6 +1,6 @@
 require("mason").setup()
 
-local language_servers = { "lua_ls", "ts_ls" }
+local language_servers = { "lua_ls", "ts_ls", "pyright" }
 require("mason-lspconfig").setup({
   ensure_installed = language_servers,
 })
