@@ -10,6 +10,7 @@ return {
 
     vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "ToggleTerm Exit terminal mode" })
     vim.keymap.set("n", "<leader>tc", [[<C-w>h]], { desc = "ToggleTerm Move cursor to left window" })
+    vim.keymap.set("n", "<leader>ti", [[<C-w>l]], { desc = "ToggleTerm Move cursor to terminal" })
 
     vim.keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<cr>", { desc = "ToggleTerm Open with Float" })
     vim.keymap.set("n", "<leader>tt", function()
