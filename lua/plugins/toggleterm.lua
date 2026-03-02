@@ -8,6 +8,8 @@ return {
       direction = "vertical",
     })
 
+    vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "ToggleTerm Exit terminal mode" })
+
     vim.keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<cr>", { desc = "ToggleTerm Open with Float" })
     vim.keymap.set("n", "<leader>tt", function()
       vim.cmd(string.format("ToggleTerm size=%d direction=vertical", math.floor(vim.o.columns * 0.5)))
