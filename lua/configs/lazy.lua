@@ -36,6 +36,7 @@ require("lazy").setup({
     require("plugins.nvim-lspconfig"),
     require("plugins.nvim-treesitter"),
     require("plugins.render-markdown"),
+    require("plugins.smart-splits"),
     require("plugins.telescope"),
     require("plugins.toggleterm"),
     require("plugins.which-key"),
