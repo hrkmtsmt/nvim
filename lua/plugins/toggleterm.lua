@@ -9,6 +9,7 @@ return {
     })
 
     vim.keymap.set("t", "<C-q>", [[<C-\><C-n>]], { desc = "ToggleTerm Exit terminal mode" })
+    vim.keymap.set("t", "<C-[><C-[>", [[<C-\><C-n>]], { desc = "ToggleTerm Exit terminal mode" })
     vim.keymap.set("n", "<leader>tq", [[<C-w>h]], { desc = "ToggleTerm Move cursor to left window" })
     vim.keymap.set("n", "<leader>ti", [[<C-w>l]], { desc = "ToggleTerm Move cursor to terminal" })
 
