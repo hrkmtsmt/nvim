@@ -30,3 +30,4 @@ vim.lsp.config("lua_ls", {
 vim.lsp.enable(language_servers)
 
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "LSP Rename" })
+vim.keymap.set("n", "<leader>k", vim.diagnostic.open_float, { desc = "Show diagnostics" })
